@@ -1,0 +1,17 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+
+
+    <bean id="Cercle" class="figures.Cercle" scope="prototype"/>
+    <bean id="Cuadrat" class="figures.Cuadrat" scope="prototype"/>
+    <bean id="Linia" class="figures.Linia" scope="prototype"/>
+    <bean id="Poligon" class="figures.Poligon" scope="prototype"/>
+    <bean id="Punt" class="figures.Punt" scope="prototype"/>
+    <bean id="Rectangle" class="figures.Rectangle" scope="prototype"/>
+    <bean id="Text" class="figures.Text" scope="prototype"/>
+
+
+</beans>
